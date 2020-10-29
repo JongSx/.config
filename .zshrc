@@ -86,19 +86,6 @@ source $ZSH/oh-my-zsh.sh
 # Ssh-agent forwarding support
 # zstyle :omz:plugins:ssh-agent identities github_rsa
 
-# Rust
-export RUSTUP_DIST_SERVER="https://mirrors.tuna.tsinghua.edu.cn/rustup"
-export PATH=$PATH:/home/trganda/.cargo/bin
-# Java
-export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
-# Maven
-export MAVEN_HOME="/opt/apache-maven-3.6.3"
-export PATH=$PATH:$MAVEN_HOME/bin
-# export MANPATH="/usr/local/man:$MANPATH"
-# Matio
-export LD_LIBRARY_PATH="/usr/local/lib"
-export LIBRARY_PATH="/usr/local/lib"
-export C_INCLUDE_PATH="/usr/local/include"
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
