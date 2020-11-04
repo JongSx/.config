@@ -10,7 +10,7 @@ export ZSH="/home/trganda/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="my"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -76,8 +76,12 @@ plugins=(
     dotenv
     ssh-agent
     history-substring-search
+    # https://github.com/search?q=fast-syntax-highlighting
     fast-syntax-highlighting
 )
+
+# ssh-agent config
+zstyle :omz:plugins:ssh-agent identities id_rsa
 
 source $ZSH/oh-my-zsh.sh
 
