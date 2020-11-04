@@ -75,9 +75,10 @@ plugins=(
     autopep8
     dotenv
     ssh-agent
-    history-substring-search
     # https://github.com/search?q=fast-syntax-highlighting
     fast-syntax-highlighting
+    history-substring-search
+    zsh-autosuggestions
 )
 
 # ssh-agent config
