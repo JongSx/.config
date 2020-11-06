@@ -1,0 +1,5 @@
+# used for fcitx5
+GTK_IM_MODULE DEFAULT=fcitx
+GTK_PATH      DEFAULT=:/usr/lib/gtk-2.0
+QT_IM_MODULE  DEFAULT=fcitx
+XMODIFIERS    DEFAULT=\@im=fcitx
