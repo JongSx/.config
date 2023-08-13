@@ -1,5 +1,6 @@
-# .config
-My ubuntu configuration file
+# dotfile
+
+Such dotfiles I'm using for.
 
 ## .vimrc
 
